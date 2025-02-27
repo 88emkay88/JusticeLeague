@@ -1,0 +1,104 @@
+
+/* Primary colors*/
+:root{
+    --background-color: rgb(0, 0, 25);
+    --secondary-color: lightseagreen;
+    --text-color: #ffffff;
+    --main-color:  #4793AF;
+}
+
+/* universal settings*/
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+hmtl{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+/* Header*/
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px 0 75px 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.3) ;
+    top: 0;
+}
+
+/* Logo element */
+.Logo{
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    font-size: 3.5rem;
+    transition: 0.3s ease-in-out;
+    margin-left: 25px;
+    color: var(--text-color);
+}
+
+span{
+    color: var(--secondary-color);
+}
+
+.Logo:hover{
+    transform: translateX(1.2);
+    font-size: 4rem;
+}
+
+/* NavBar*/ 
+.navbar a{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 3rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover{
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    
+}
+
+
+/* menu-icon */
+#menu-icon{
+    display: none;
+    font-size: 3.5rem;
+    color: var(--main-color);
+}
+
+/* Hero section*/
+.heading{
+    z-index: 999;
+    position: absolute;
+    top: 300px;
+    left: 75px;
+    font-size: 100px;
+    width: 600px;
+    font-weight: 1000;
+}
+
+/* About-section*/
+.about{
+    padding: 700px;
+
+}
