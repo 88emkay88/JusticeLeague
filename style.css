@@ -120,3 +120,18 @@ span{
         transform: translateX(0);
     }
 }
+
+
+
+
+
+/* =============================================== Resource and Projects Page ==========================================*/
+.resource{
+    margin-top: 190px;
+}
+
+.resource-title{
+    justify-self: center;
+    font-size: 60px;
+    padding: 40px;
+}
