@@ -464,9 +464,9 @@ html {
     }  
 }
 
-@media (max-width: 991px){
-    .hero{
-         width: 100%;
+@media (max-width: 990px){
+        .hero{
+         width: 500px;
         }
 
         .heading{
@@ -482,14 +482,14 @@ html {
         }
 
         .hero-video{
-            width: 100pc;
+            width: 100px;
             margin-top: px;
         }
     }
 
     @media (max-width: 1397px){
         .hero-video{
-            width: 100pc;
+            width: 100vw;
         }
     }
 
@@ -531,6 +531,10 @@ html {
         .card {
             width: 100%;
             margin: 10px 0;
+        }
+
+        .hero-video{
+            width: 200px;
         }
     }
 
@@ -599,6 +603,40 @@ html {
 
     .footer{
         width: 400px;
+    }
+}
+
+@media (max-width: 904px){
+    .hero-video{
+        width: 899px;
+    }
+
+    .welcome{
+        position: absolute;
+        font-size: 45px;
+        right: 40px;
+        width:200px;
+    }
+
+    .heading{
+        width: 200px;
+    }
+
+    .footer{
+        width: 904px;
+    }
+
+}
+
+@media (max-width: 1000px){
+    .footer{
+        width: 1000px
+    }
+}
+
+@media (max-width: 882px){
+    .hero-video{
+        width: 900px;
     }
 }
 
