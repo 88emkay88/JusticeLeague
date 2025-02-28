@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Events</title>
+</head>
+<header>
+    <a href="#home"></a><h1 class="Logo">Coding <span>Club</span></h1></a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <ul>
+            <a href="#about">About</a>
+            <a href="#events">Events</a>
+            <a href="#resource">Resource and Projects</a>
+            <a href="#social">Socials</a>
+        </ul>
+    </nav>
+</header>
+
+<body>
+ 
+    <main>
+        <div style="width: 20%; float:left; padding-left: 50px;">
+            <div class="calander">
+                <div class="header">
+                    <button id = "prevBtn">
+                        <i class ="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="monthYear" id ="monthYear"></div>
+                    <button id="nextBtn">
+                        <i class ="fa-solid fa-chevron-right"></i>   
+                    </button>
+                </div>
+                <div class="days">
+                    <div class="day">Mon</div>
+                    <div class="day">Tue</div>
+                    <div class="day">Wed</div>
+                    <div class="day">Thu</div>
+                    <div class="day">Fri</div>
+                    <div class="day">Sat</div>
+                    <div class="day">Sun</div>
+                </div>
+                <div class="dates" id="dates"></div>
+            </div>
+        
+         </div>
+         <div style="width: 70%; 
+                    float:right;
+                    padding-left:50px;">
+
+                    <h1 style=" align-items: center;">Event Planner</h1>
+                    <p style="padding-left: 200;"><h2>Location : IT-102</h2></p>
+                    <p style="padding-left: 200;"><h2>Duration : 10:am - 18:00pm </h2></p>
+         </div>
+         
+          <script src=script.js></script>
+    </main>
+  
+</body>
+</html>
