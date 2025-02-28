@@ -17,16 +17,22 @@
     font-family: "Poppins";
 }
 
+main{
+    margin-bottom: 50px;
+}
+
 body{
 
     background-color: var(--background-color);
     color: var(--text-color);
+    width: 100%;
 }
 
 html{
     font-size: 60%;
     overflow-x: hidden;
     width: 100%;
+    margin: 0;
 }
 
 /* Header*/
@@ -35,9 +41,9 @@ header{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 75px 0 75px 0;
+    padding: 20px 10%;
     z-index: 1000;
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.3) ;
@@ -84,6 +90,9 @@ span{
     
 }
 
+.navbar.active{
+    display: block;
+}
 
 /* menu-icon */
 #menu-icon{
@@ -105,7 +114,7 @@ span{
 
 /* About-section*/
 .about{
-    padding: 700px;
+    padding: 100px 20px;
 
 }
 
@@ -126,8 +135,7 @@ span{
     }
 }
 
-<<<<<<< HEAD
-=======
+
 /* About page
  */
 
@@ -493,5 +501,56 @@ html {
         }
     }
 
+    @media (max-width: 768px) {
+        .section {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .card {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .footer ul {
+            flex-direction: column;
+            text-align: center;
+        }
     
->>>>>>> f597e1c8a70c8c135852a7a5335af95718d153b3
+        .footer ul li {
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (max-width: 1285px){
+        #menu-icon{
+            display: block;
+        }
+    
+        .navbar{
+            position: absolute;
+            top: 100%;
+            right: 0;
+            width: 50%;
+            padding: 1rem 3rem;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom-left-radius: 2rem;
+            border-left: 2px solid var(--main-color);
+            border-bottom: 2px soild var(--main-color);
+            display: none;
+        }
+    
+        .navbar a{
+            display: block;
+            font-size: 2rem;
+            margin: 3rem 0;
+            color: var(--text-color);
+    
+        }
+    
+        .navbar.active{
+            display: block;
+        }
+    }
