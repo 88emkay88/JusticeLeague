@@ -18,6 +18,7 @@
 }
 
 body{
+
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -108,7 +109,6 @@ span{
     animation: 1s fadeInFromLeft ease-out forwards;
 }
 
-
 /* fadeInleft-Animation */
 @keyframes fadeInFromLeft{
     0%{
@@ -120,3 +120,4 @@ span{
         transform: translateX(0);
     }
 }
+
