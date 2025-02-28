@@ -97,15 +97,15 @@ padding: 10px;
 .date:hover,
 .date.active {
     background: #ff5869;
-    color: #000000;
+    color: #fff;
 
 }
 .date.inactive{
-    color: #000000;
+    color: #d2d2d2;
 
 }
 .date.inactive:hover{
-    color: #000000;
+    color: #fff;
 }
 
 #object1 {
@@ -117,6 +117,3 @@ padding: 10px;
     padding-left: -90;
 }
 
-footer{
-    margin-top: 400px;
-}
