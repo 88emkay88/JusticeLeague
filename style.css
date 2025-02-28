@@ -324,3 +324,47 @@ span{
     box-shadow: 0 0 25px var(--secondary-color);
     border: 2px solid var(--secondary-color);
 }
+
+
+/* Different screens  */
+@media (max-width: 995px) {
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid var(--main-color);
+        border-bottom: 3px solid var(--main-color);
+        border-bottom-left-radius: 2rem;
+        padding: 1rem 3%;
+        background-color: var(--secondary-color);
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .navbar .active{
+        display: block;
+    }
+
+    .navbar a:hover,
+    .navbar a:active{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid var(--main-color);
+    }  
+
+
+    @media (max-width: 1000px){
+        
+    }
+}
