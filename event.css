@@ -22,12 +22,8 @@ body{
   flex-grow: 1;
   color:#fff;
 }
-.events{
-align-items: end;
-}
 
-.calander{
-    color: #000;
+.calender{
     width: 380px;
     height: 380px;
     display: flex;
@@ -57,7 +53,7 @@ padding: 10px;
     cursor:pointer;
     width: 40px;
     height: 40px;
-    box-shadow: 0 0 4 rgba(0,0,0,0,2);
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
 
 
 }
@@ -101,15 +97,15 @@ padding: 10px;
 .date:hover,
 .date.active {
     background: #ff5869;
-    color: #fff;
+    color: #000000;
 
 }
 .date.inactive{
-    color: #d2d2d2;
+    color: #000000;
 
 }
 .date.inactive:hover{
-    color: #fff;
+    color: #000000;
 }
 
 #object1 {
