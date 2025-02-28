@@ -17,6 +17,10 @@
     font-family: "Poppins";
 }
 
+main{
+    margin-bottom: 50px;
+}
+
 body{
 
     background-color: var(--background-color);
@@ -131,8 +135,7 @@ span{
     }
 }
 
-<<<<<<< HEAD
-=======
+
 /* About page
  */
 
@@ -551,7 +554,3 @@ html {
             display: block;
         }
     }
-    
-
-    
->>>>>>> f597e1c8a70c8c135852a7a5335af95718d153b3

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// Navigation //
 let menuIcon = document.getElementById("menu-icon");
 let navBar = document.querySelector(".navbar");
 
@@ -6,7 +6,10 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navBar.classList.toggle('active');
 }
-=======
+//////////////////////////////////////////////////////////////
+
+/// calander ///
+
 const monthYearElement = document.getElementById('monthYear');
 const datesElement = document.getElementById('dates');
 const prevBtn = document.getElementById('prevBtn');
@@ -59,4 +62,4 @@ nextBtn.addEventListener('click', () => {
 })
 
 updateCalendar();
->>>>>>> 999b1c35c90689a8fac13fd2d4483e6f202e6ce3
+
