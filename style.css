@@ -121,10 +121,82 @@ span{
     }
 }
 
+/* About page
+ */
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 190px;
+    padding: 25px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
 
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background-color: #21262d;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    background-color: #30363d;
+}
+.executives {
+    display: flex;
+    justify-content: center;
+}
+.executive {
+    text-align: center;
+    margin: 10px;
+}
+.executive img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.3s;
+}
 
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+    text-decoration: none;
 
+}
+
+.social-icons a:hover {
+    color: #161b22;
+}
+
+.about-title{
+    justify-self: center;
+    font-size: 60px;
+    padding: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 /* =============================================== Resource and Projects Page ==========================================*/
 .resource{
     margin-top: 190px;
