@@ -22,9 +22,10 @@ body{
     color: var(--text-color);
 }
 
-hmtl{
+html{
     font-size: 60%;
     overflow-x: hidden;
+    width: 100%;
 }
 
 /* Header*/
@@ -40,6 +41,10 @@ header{
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.3) ;
     top: 0;
+}
+
+.hero-video{
+    width: 100%;
 }
 
 /* Logo element */
@@ -362,9 +367,56 @@ span{
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid var(--main-color);
     }  
-
-
-    @media (max-width: 1000px){
-        
-    }
 }
+
+    @media (max-width: 991px){
+        .hero{
+            width: 100%;
+        }
+
+        .heading{
+            left: 50%;
+            right: 50%;
+        }
+
+        .welcome{
+            font-size: 100px;
+            text-align: center;
+            justify-content: center;
+            justify-self: center;
+        }
+
+        .hero-video{
+            width: 100pc;
+            margin-top: px;
+        }
+    }
+
+    @media (max-width: 1397px){
+        .hero-video{
+            width: 100pc;
+        }
+    }
+
+    @media (max-width: 755px){
+        .heading{
+            left: 50%;
+            right: 50%;
+        }
+    }
+
+    @media (max-width: 445px){
+
+        html{
+            width: 100%;
+        }
+        .heading{
+            left: 75%;
+        }
+
+        .footer{
+            width: 200px;
+        }
+    }
+
+    
