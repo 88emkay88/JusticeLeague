@@ -37,12 +37,11 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-between
-;
-align-items: center;
-padding: 10px;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
 .monthYear{
     text-align: center;
     font-weight: 600;
