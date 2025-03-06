@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Events</title>
+</head>
+<header>
+    <a href="#home"></a><h1 class="Logo">Coding <span>Club</span></h1></a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <ul>
+            <a href="About.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="resource.html">Resource and Projects</a>
+            <a href="#socials">Socials</a>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <div style=" width: 10% ;float:left; border-radius: 5px;padding: 10px; background-color:  #161b22;">
+            <div class="calender">
+                <div class="header">
+                    <button id = "prevBtn">
+                        <i class ="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="monthYear" id ="monthYear"></div>
+                    <button id="nextBtn">
+                        <i class ="fa-solid fa-chevron-right"></i>   
+                    </button>
+                </div>
+                <div class="days">
+                    <div class="day">Mon</div>
+                    <div class="day">Tue</div>
+                    <div class="day">Wed</div>
+                    <div class="day">Thu</div>
+                    <div class="day">Fri</div>
+                    <div class="day">Sat</div>
+                    <div class="day">Sun</div>
+                </div>
+                <div class="dates" id="dates"></div>
+            </div>
+        
+         </div>
+         <div style="width: 70%; 
+                    float:right;
+                    padding-left:50px;
+                    background-color:  #161b22;">
+<div class="container">
+    <h1 class="about-title" style ="font-size: 30;">Planner</h1>
+
+    <div class="section">
+        <div class="card" >
+            <h1>HACKATHON</h1>
+            <p> <h4 style ="font-size: 20px;">LOCATION: IT102</h4></p>
+            <p> <h4 style ="font-size: 20px;">DURATION: 10:00am - 18:00pm</h4></p>
+            <p> <h4 style ="font-size: 20px;">DATE: 31 January 2025</h4></p>
+            <p> <h4 style ="font-size: 20px; align-items: center;color:#ff5869">Description</h4></p>
+            <p> <h4 style ="font-size: 20px;">The Hackathon is meant to enrich your coding skills and make it a whole lot easier to interact and work with others.Whilst also learning</h4></p>
+        </div>
+        <div class="card" stlye="border-radius 50px" >
+            <h1>OTHER EVENTS</h1>
+            <div class="executive">
+                <img src="media/images/hackaer.png" alt="HACKATHON">
+                <p>HACKATHON</p>
+            </div>
+            <div class="executive">
+                <img src="media/images/laptop.avif" alt="HACKATHON">
+                <p>CODING CLUB</p>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer class="footer" id="socials" style="margin-top: 700px;">
+        <div class="social-icons">
+            <a href="https://github.com/CODINGCLUB404" target="_blank">
+                <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/coding-club-3841b1349" target="_blank">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+            <a href="https://www.instagram.com/codingclub404?igsh=MTB4amQzNWxnZDgzeg== " target="_blank">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@codingclub404" target="_blank">
+                <i class='bx bxl-tiktok'></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="About.html">About</a>
+            </li>
+
+            <li>
+                <a href="events.html">Events</a>
+            </li>
+
+            <li>
+                <a href="resource.html">Resource and projects</a>
+            </li>
+      
+        </ul>
+
+        <p class="copyright">
+            © Justice League | All Rights Reserved
+        </p>
+    </footer>
+    <script src=script.js></script>
+</body>
+</html>
