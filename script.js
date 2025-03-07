@@ -6,7 +6,7 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navBar.classList.toggle('active');
 }
-//////////////////////////////////////////////////////////////
+//////////////////////////////////////////?////////////////////
 
 /// calander ///
 
@@ -64,3 +64,41 @@ nextBtn.addEventListener('click', () => {
 
 updateCalendar();
 
+
+// new date
+let dates = document.querySelectorAll(".date");
+let card = document.querySelector(".card");
+
+
+dates.forEach( date => {
+    date.addEventListener("click", () => {
+        let selectedDate = parseInt(date.textContent);
+        let selectedMonth = currentDate.getMonth();
+        let selectedYear = currentDate.getFullYear();
+
+        if (selectedDate === 12 && selectedMonth === 2 && selectedYear === 2025){
+            card.innerHTML = `
+        <h1>CODING CLUB</h1>
+            <p> <h4 style ="font-size: 20px;">LOCATION: IT201</h4></p>
+            <p> <h4 style ="font-size: 20px;">DURATION: 16:00am - 18:00pm</h4></p>
+            <p> <h4 style ="font-size: 20px;">DATE: 12 March 2025</h4></p>
+            <p> <h4 style ="font-size: 20px; align-items: center;color:#ff5869">Description</h4></p>
+            <p> <h4 style ="font-size: 20px;">The coding club will be having it's mandatory club meetings where all members get to meet and interact with each other while completing the clubs objectives and respective projects</h4></p>
+        `
+        } else if (selectedDate === 7 && selectedMonth === 2 && selectedYear === 2025){
+            card.innerHTML = `
+        <h1>HACKATHON</h1>
+            <p> <h4 style ="font-size: 20px;">LOCATION: IT102</h4></p>
+            <p> <h4 style ="font-size: 20px;">DURATION: 10:00am - 18:00pm</h4></p>
+            <p> <h4 style ="font-size: 20px;">DATE: 31 January 2025</h4></p>
+            <p> <h4 style ="font-size: 20px; align-items: center;color:#ff5869">Description</h4></p>
+            <p> <h4 style ="font-size: 20px;">The Hackathon is meant to enrich your coding skills and make it a whole lot easier to interact and work with others.Whilst also learning</h4></p>
+        `
+        } else {
+            card.innerHTML = `
+        <h1>CODING CLUB</h1>
+        <p> NO EVENT </p>
+        `
+        }
+    })
+})
