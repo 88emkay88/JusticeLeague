@@ -120,7 +120,26 @@
     padding-left: -90;
 }
 
-footer{
+
+
+.footer{
     width: 100%;
 }
 
+@media (min-width: 640px){
+   .footer{
+       align-items: center;
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
+       height: auto;
+       width: auto;
+   }
+}
+@media (min-width: 440px){
+   .footer{
+       align-items: center;
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
+       width: auto;
+   }
+}

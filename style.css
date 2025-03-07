@@ -603,7 +603,7 @@ html {
     }
 
     .footer{
-        width: 400px;
+        width:auto;
     }
 }
 
@@ -654,7 +654,6 @@ html {
         align-items: center;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        height: auto;
         width: auto;
     }
  }
