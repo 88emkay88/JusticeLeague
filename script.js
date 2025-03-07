@@ -83,7 +83,7 @@ dates.forEach( date => {
             <p> <h4 style ="font-size: 20px;">DURATION: 16:00am - 18:00pm</h4></p>
             <p> <h4 style ="font-size: 20px;">DATE: 12 March 2025</h4></p>
             <p> <h4 style ="font-size: 20px; align-items: center;color:#ff5869">Description</h4></p>
-            <p> <h4 style ="font-size: 20px;">The coding club will be having it's mandatory club meetings where all members get to meet and interact with each other while completing their the clubs objectives and respective projects</h4></p>
+            <p> <h4 style ="font-size: 20px;">The coding club will be having it's mandatory club meetings where all members get to meet and interact with each other while completing the clubs objectives and respective projects</h4></p>
         `
         } else if (selectedDate === 7 && selectedMonth === 2 && selectedYear === 2025){
             card.innerHTML = `
